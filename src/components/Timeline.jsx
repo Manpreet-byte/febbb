@@ -14,14 +14,14 @@ const memories = [
     title: 'Our First Conversation',
     description: 'I was so nervous, but your smile made everything feel easy. I could have talked to you forever.',
     accent: 'from-rose-400/15 to-rose-300/5',
-    image: 'https://images.unsplash.com/photo-1518882460567-3bf34a5d2a6d?w=600&q=75',
+    image: 'https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600&q=75',
   },
   {
     date: 'The Moment',
     title: 'When You Made Me Laugh',
     description: 'That silly joke nobody else found funny — I could not stop laughing. That is when I knew you were special.',
     accent: 'from-rose-600/15 to-rose-400/5',
-    image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=600&q=75',
+    image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=600&q=75',
   },
   {
     date: 'The Warmth',

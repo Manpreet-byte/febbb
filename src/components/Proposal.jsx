@@ -72,12 +72,12 @@ export default function Proposal() {
       {/* Rose petals background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=1400&q=75"
+          src="https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=1200&q=70"
           alt=""
-          className="w-full h-full object-cover opacity-[0.12] img-vignette scale-110"
-          loading="eager"
+          className="w-full h-full object-cover opacity-[0.05] img-vignette scale-110"
+          loading="lazy"
         />
-        <div className="absolute inset-0 bg-linear-to-b from-[#050208]/80 via-[#050208]/50 to-[#050208]/80" />
+        <div className="absolute inset-0 bg-[#050208]/70" />
       </div>
 
       <AnimatePresence mode="wait">
@@ -170,16 +170,16 @@ export default function Proposal() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.4, type: 'spring', stiffness: 80 }}
-              className="relative w-44 h-44 md:w-56 md:h-56 mx-auto my-6 rounded-full overflow-hidden ring-2 ring-gold-400/20 shadow-[0_0_40px_rgba(201,168,78,0.1)]"
+              className="relative w-40 h-40 md:w-52 md:h-52 mx-auto my-6 rounded-full overflow-hidden ring-2 ring-gold-400/20"
             >
               <img
-                src="https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=600&q=80"
+                src="https://images.unsplash.com/photo-1494972308805-463bc619d34e?w=500&q=80"
                 alt="Rose bouquet"
-                className="absolute inset-0 w-full h-full object-cover"
-                loading="eager"
+                className="w-full h-full object-cover"
+                loading="lazy"
               />
-              <div className="absolute inset-0 bg-linear-to-t from-[#050208]/50 via-transparent to-transparent" />
-              <div className="absolute inset-0 rounded-full ring-1 ring-inset ring-gold-400/15" />
+              <div className="absolute inset-0 bg-linear-to-t from-[#050208]/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 rounded-full ring-1 ring-inset ring-gold-400/10" />
             </motion.div>
 
             <motion.p

@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion';
 
 const roses = [
   {
-    src: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=800&q=80',
+    src: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=800&q=80',
     alt: 'Lush rose bouquet',
     caption: 'Every petal reminds me of you',
     span: 'rose-tall rose-wide',
@@ -27,7 +27,7 @@ const roses = [
     span: '',
   },
   {
-    src: 'https://images.unsplash.com/photo-1518882460567-3bf34a5d2a6d?w=600&q=80',
+    src: 'https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600&q=80',
     alt: 'Pink rose arrangement',
     caption: 'Arranged with care, like my feelings',
     span: '',

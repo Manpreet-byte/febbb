@@ -79,7 +79,7 @@ export default function HeroSection() {
       {/* Cinematic rose bouquet background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=1600&q=80"
+          src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=1600&q=80"
           alt=""
           className="w-full h-full object-cover opacity-[0.07] img-vignette scale-110"
           loading="eager"
